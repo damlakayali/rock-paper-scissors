@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2323734F29562C1200F448B7 /* blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2323734F29562C1200F448B7 /* rock-paper-scissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rock-paper-scissors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2323735229562C1200F448B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2323735429562C1200F448B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2323735629562C1200F448B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		2323734629562C1200F448B7 = {
 			isa = PBXGroup;
 			children = (
-				2323735129562C1200F448B7 /* blog */,
+				2323735129562C1200F448B7 /* rock-paper-scissors */,
 				2323735029562C1200F448B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		2323735029562C1200F448B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2323734F29562C1200F448B7 /* blog.app */,
+				2323734F29562C1200F448B7 /* rock-paper-scissors.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2323735129562C1200F448B7 /* blog */ = {
+		2323735129562C1200F448B7 /* rock-paper-scissors */ = {
 			isa = PBXGroup;
 			children = (
 				2323735229562C1200F448B7 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				2323735D29562C1700F448B7 /* LaunchScreen.storyboard */,
 				2323736029562C1700F448B7 /* Info.plist */,
 			);
-			path = blog;
+			path = "rock-paper-scissors";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2323734E29562C1200F448B7 /* blog */ = {
+		2323734E29562C1200F448B7 /* rock-paper-scissors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2323736329562C1700F448B7 /* Build configuration list for PBXNativeTarget "blog" */;
+			buildConfigurationList = 2323736329562C1700F448B7 /* Build configuration list for PBXNativeTarget "rock-paper-scissors" */;
 			buildPhases = (
 				2323734B29562C1200F448B7 /* Sources */,
 				2323734C29562C1200F448B7 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = blog;
+			name = "rock-paper-scissors";
 			productName = blog;
-			productReference = 2323734F29562C1200F448B7 /* blog.app */;
+			productReference = 2323734F29562C1200F448B7 /* rock-paper-scissors.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2323734A29562C1200F448B7 /* Build configuration list for PBXProject "blog" */;
+			buildConfigurationList = 2323734A29562C1200F448B7 /* Build configuration list for PBXProject "rock-paper-scissors" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2323734E29562C1200F448B7 /* blog */,
+				2323734E29562C1200F448B7 /* rock-paper-scissors */,
 			);
 		};
 /* End PBXProject section */
@@ -289,6 +289,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "rock-paper-scissors";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -316,6 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blog/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "rock-paper-scissors";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2323734A29562C1200F448B7 /* Build configuration list for PBXProject "blog" */ = {
+		2323734A29562C1200F448B7 /* Build configuration list for PBXProject "rock-paper-scissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2323736129562C1700F448B7 /* Debug */,
@@ -346,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2323736329562C1700F448B7 /* Build configuration list for PBXNativeTarget "blog" */ = {
+		2323736329562C1700F448B7 /* Build configuration list for PBXNativeTarget "rock-paper-scissors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2323736429562C1700F448B7 /* Debug */,
