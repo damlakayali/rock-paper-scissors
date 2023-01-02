@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = blog/Info.plist;
+				INFOPLIST_FILE = "rock-paper-scissors/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "rock-paper-scissors";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -316,7 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = blog/Info.plist;
+				INFOPLIST_FILE = "rock-paper-scissors/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "rock-paper-scissors";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
